@@ -7,5 +7,5 @@ app_name = CatologConfig.name
 
 urlpatterns = [
     path('', home, name='home' ),
-    path('contacs', contacts, name='contacts')
+    path('contacs/', contacts, name='contacts')
 ]
